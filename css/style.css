@@ -937,7 +937,7 @@ ul.timeline li .data .text {
 
 .pitems .pubmain {
 	background: #fefefe;
-	padding: 25px 25px 35px 25px;
+	padding: 10px 15px 10px 15px;
 	min-height: 130px;
 	position: relative;
 
@@ -948,7 +948,7 @@ ul.timeline li .data .text {
 
 .pitems .pubtitle {
 	margin: 0;
-	padding: 0 0 15px 0;
+	padding: 5px 0 15px 0;
 	font-size: 20px;
 	font-weight: 300;
 }
@@ -984,7 +984,7 @@ ul.timeline li .data .text {
 
 .pitems .pubdetails {
 	background: #fff;
-	padding: 25px;
+	padding: 15px;
 	display: none;
 }
 /* Gallery
