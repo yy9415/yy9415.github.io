@@ -321,7 +321,7 @@ ul#navigation li .fa {
 .pageheader {
 	background: #f3f3f3;
 	position: relative;
-	padding: 60px 0 45px 0;
+	padding: 50px 0 25px 0;
 }
 
 .pageheader:after {
@@ -341,7 +341,7 @@ ul#navigation li .fa {
 }
 
 .headercontent .title {
-	font-size: 50px;
+	font-size: 40px;
 	margin-bottom: 25px;
 	border-bottom: 1px solid #ccc;
 	padding: 0 0 20px 0;
@@ -937,7 +937,7 @@ ul.timeline li .data .text {
 
 .pitems .pubmain {
 	background: #fefefe;
-	padding: 10px 15px 10px 15px;
+	padding: 10px 15px 25px 15px;
 	min-height: 130px;
 	position: relative;
 
