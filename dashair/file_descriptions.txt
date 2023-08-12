@@ -1,0 +1,18 @@
+index.html: default page, project description
+
+graph.js: graphs all the sensors on the map, and graphs a sensor's data when clicked
+
+mapbox.html: contains the header, map, graph, etc.
+
+map.js: graphs the map and cities 
+
+styles.css: used to style things in other files, namely graph.js, map,js, and index.html
+
+folder /data/: stores data that I used in making the website, currently includes the following
+	-county_coords: data for county boundaries
+	-dallas_purple_stations_static: used to mark sensor locations in dallas
+	-lattice_coords: data for lattice on map
+	-rectangle_coords: data for rectangles surrounding the counties on the map
+	-ordered_dallas to ordered_dallas_12: data for sensors in the dallas_purple_stations_static file, still missing a few sensors
+
+file_descriptions.txt: this file, describes what the other files do for others' reference

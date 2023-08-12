@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Air Quality Sensing Project</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <style>
+        body {
+            background: linear-gradient(to bottom, #6699cc, #c4b69e);
+        }
+
+        header {
+            background-image: radial-gradient(rgb(144, 130, 105), rgb(187, 178, 163));
+            color: black;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .description-link {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            color: black;
+        }
+
+        .team-section {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 40px;
+        }
+
+        .team-member {
+            text-align: center;
+            margin-top: 15px;
+        }
+
+        .team-member img {
+            width: 400px; /* Adjust the width as needed */
+            height: auto;
+            border-radius: 10px;
+        }
+
+        .cloud-background {
+            background-image: url('src/cloud.png');
+            background-size: contain; /* Adjust to 'cover' or other values as needed */
+            background-repeat: no-repeat;
+            background-position: center top; /* Adjust the values to position the image */
+        }
+
+        .timeline {
+            border-top: 2px solid #333;
+            padding: 20px 0;
+            text-align: center;
+        }
+        .section-title {
+            color: #6699cc
+        }
+
+        main {
+            background-color: rgba(255, 255, 255, 0.9);
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <a href="mapbox.html" class="description-link">Link to Mapbox</a>
+    <header>
+        <h1>Breath of The City</h1>
+    </header>
+
+    <div class="team-section">
+        <div class="team-member">
+            <h3>Mountaintop Team Members</h3>
+            <img src="src/mountaintop-team.png" alt="Mountaintop Team">
+        </div>
+    </div>
+
+    <div class="team-section cloud-background">
+
+        <div class="team-member">
+            <div style="height: 30px;"></div>
+            <h4>Other Mentors</h4>
+            <p>Profs. Brian Davison, Linchen He, Daniel Robinson, Lichao Sun</p>
+        </div>
+        <div class="team-member">
+            <h4>Data Extraction/AI Modeling</h4>
+            <p>Benjamin Barrera-Altuna</p>
+        </div>
+        <div class="team-member">
+            <h4>Hardware & Mobile Team</h4>
+            <p>Zhenyu Wu, Ziyi</p>
+        </div>
+        <div class="team-member">
+            <h4>Website Team</h4>
+            <p>Kevin Y</p>
+        </div>
+    </div>
+
+    
+
+    <main>
+        
+        <h2 class="section-title">Project Description</h2>
+        
+        <p>Air pollution has been identified as one of the biggest threats to human health by the WHO Global Air Quality Guidelines, leading to respiratory disease, cardiovascular disease, and cancer. This project will implement innovative AI (Artificial Intelligence) techniques to provide fine-grained air quality sensing for residents in areas without air quality monitoring sensors. This highly interdisciplinary project promotes collaboration across several disciplines. Students with a background in Computer Science, Computer Engineering, Electrical Engineering, and Industrial Engineering are combining their fields of knowledge to create impact. The team is working on a low-cost air quality sensing system prototype, AI models, and online web pages for public visibility.</p>
+        <h3 class="section-title">Data Collection</h3>
+        <p>The data collection process plays a crucial role in our project, as it forms the foundation for air quality analysis. To infer air quality accurately, we must determine which environmental features the model should consider. As such, a prominent part of our project has been identifying the temporal and spatial environmental factors that significantly affect air quality...</p>
+        
+        <h3 class="section-title">AI Modeling</h3>
+        <p>We plan to build a model that employs a recurrent neural network (RNN) complemented by a graph-based neural network to capture spatial and temporal environmental factors effectively. Through backpropagation, the model adjusts its inference process by comparing air quality estimates with actual data, enhancing accuracy and reliability.</p>
+        
+        <h3 class="section-title">Air Quality Sensor Hardware</h3>
+        <p>We are building an air quality sensor and a mobile interface for its data collection to help verify our model's accuracy in nearby locations.</p>
+        
+        <h3 class="section-title">Real Time Access</h3>
+        <p>We are currently in development of a website and mobile app for iOS and Android. These interfaces will provide users with real-time location-specific access to our AI model. Users around the world will be able to obtain air quality inferences tailored to their location, empowering them with valuable information for healthier decision-making.</p>
+        
+        <h3 class="section-title">AI Model Timeline</h3>
+        <div class="timeline">
+            <img src="src/timeline.png" alt="Timeline">
+        </div>
+    </main>
+</body>
+
+</html>
